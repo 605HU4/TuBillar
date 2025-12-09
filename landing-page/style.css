@@ -83,16 +83,12 @@ h2 {
 h1,
 h2,
 h3 {
-  line-height: 1.1;
+  line-height: 1.3;
 }
 
 a {
   color: hsl(196, 100%, 46%);
-  text-underline-offset: 2px;
-  text-decoration-skip-ink: auto;
-  &:not(:is(:hover, :focus)) {
-    text-decoration-color: color-mix(in srgb, currentColor, transparent 50%);
-  }
+  text-decoration: none;
 }
 
 hr {
